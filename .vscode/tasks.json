@@ -1,0 +1,44 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Django: Run development server",
+			"type": "shell",
+			"command": "C:\\Users\\THINKBOOK\\OneDrive\\Desktop\\New folder (15)\\venv\\Scripts\\python.exe",
+			"args": [
+				"C:\\Users\\THINKBOOK\\OneDrive\\Desktop\\New folder (15)\\task10\\manage.py",
+				"runserver",
+				"127.0.0.1:8000"
+			],
+			"isBackground": true,
+			"problemMatcher": [],
+			"group": "build"
+		},
+		{
+			"label": "Django: Start task10 server",
+			"type": "shell",
+			"command": "C:\\Users\\THINKBOOK\\OneDrive\\Desktop\\New folder (15)\\venv\\Scripts\\python.exe",
+			"args": [
+				"C:\\Users\\THINKBOOK\\OneDrive\\Desktop\\New folder (15)\\task10\\manage.py",
+				"runserver",
+				"127.0.0.1:8000"
+			],
+			"isBackground": true,
+			"problemMatcher": [],
+			"group": "build"
+		},
+		{
+			"label": "Run Django server in terminal",
+			"type": "shell",
+			"command": "C:\\Users\\THINKBOOK\\OneDrive\\Desktop\\New folder (15)\\venv\\Scripts\\python.exe",
+			"args": [
+				"C:\\Users\\THINKBOOK\\OneDrive\\Desktop\\New folder (15)\\task10\\manage.py",
+				"runserver",
+				"127.0.0.1:8000"
+			],
+			"isBackground": true,
+			"problemMatcher": [],
+			"group": "build"
+		}
+	]
+}
